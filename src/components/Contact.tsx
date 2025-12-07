@@ -33,7 +33,7 @@ Message:
 ${formData().message}
       `.trim();
 
-      const mailtoLink = `mailto:stylebybec@gmail.com?subject=${encodeURIComponent(
+      const mailtoLink = `mailto:properinpink@gmail.com?subject=${encodeURIComponent(
         subject
       )}&body=${encodeURIComponent(body)}`;
       window.location.href = mailtoLink;

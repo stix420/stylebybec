@@ -9,7 +9,6 @@ const Header: Component<HeaderProps> = (props) => {
   const navItems = [
     { id: "about", label: "About" },
     { id: "services", label: "Services" },
-    { id: "pricing", label: "Pricing" },
     { id: "contact", label: "Contact" },
   ];
 

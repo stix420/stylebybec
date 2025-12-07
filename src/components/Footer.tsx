@@ -21,7 +21,7 @@ const Footer: Component = () => {
           <div>
             <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
             <ul class="space-y-2">
-              {["About", "Services", "Pricing", "Contact"].map((item) => (
+              {["About", "Services", "Contact"].map((item) => (
                 <li>
                   <button
                     onClick={() => {
